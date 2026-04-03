@@ -20,6 +20,6 @@ document.addEventListener('keydown', function(event) {
 
   // If user presses the bound key, redirect
   if (redirectKey && event.key === redirectKey) {
-    window.location.href = 'https://clever.com/login';
+    window.location.href = 'https://turner.schoology.com';
   }
 });
