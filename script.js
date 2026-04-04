@@ -57,7 +57,7 @@ const previewText = document.getElementById("preview-text");
 const previewData = {
   dta: {
     url: "PC/dta.html",
-    text: "Open world driving chaos game."
+    text: "Lesson about: A g†@ style educaion"
   },
   raldi: {
     url: "PC/.html",
