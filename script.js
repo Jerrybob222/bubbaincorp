@@ -108,3 +108,17 @@ buttons.forEach(button => {
   });
 
 });
+
+
+
+button.addEventListener("mouseleave", () => {
+    clearTimeout(hoverTimer);      // stops the timer if 2 seconds not reached
+    previewBox.classList.remove("show"); // fade out
+});
+
+
+button.addEventListener("mouseenter", (e) => {
+    hoverTimer = setTimeout(() => {
+        previewBox.classList.add("show"); // fade in
+    }, 2000);
+});
