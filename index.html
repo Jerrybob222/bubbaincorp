@@ -4,6 +4,7 @@
 
 <head>
 
+   
 <link rel="stylesheet" href="styles.css">
 
 <title>Bubba Incorporated II™</title>
@@ -12,32 +13,20 @@
 
 <body>
 
-
-<div id="navbar-container"> </div>
-
-
-
+<div id="navbar-container"></div>
 
 <script>
-fetch("navbar.html")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("navbar-container").innerHTML = data;
-  });
+  // Make sure path is correct relative to this page
+  fetch("/navbar.html")  
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-container").innerHTML = data;
+    })
+    .catch(err => console.error("Navbar failed to load:", err));
 </script>
 
-
-
-
-    <!-- cloak button -->
-<div class="nav-right">
-<button href="info.html" class="nav-button" onclick="cloak()">cloak</button>
-</div>
-
-
-</div>
-
-<script src="panickey.js"></script>
+ <script src="/script.js"></script>
+<script src="panickey.js"></script
 
 
 <!-----Dont touch above or site inplodes ^^^^^^^^^^^^^-->
