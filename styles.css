@@ -223,6 +223,34 @@ html, body {
 
 
 
+/* previewer of apps */
 
 
-/* jumposcare */
+#preview-box {
+  position: absolute;
+  width: 260px;
+  background: #111;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: block; /* always block for transitions to work */
+  opacity: 0;    /* start invisible */
+  pointer-events: none; /* avoids blocking hover */
+  transition: opacity 0.3s ease; /* smooth fade */
+  z-index: 10000;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+#preview-box img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+#preview-box.show {
+  opacity: 1;
+}
+
+
+
+/* end */

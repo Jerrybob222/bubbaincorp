@@ -40,3 +40,71 @@ fetch("/navbar.html")
         initNavbar(); // set up button listeners
     })
     .catch(err => console.error("Navbar failed to load:", err));
+
+
+
+
+
+
+
+
+
+
+    /* previewer of apps */
+
+
+
+
+const previewBox = document.getElementById("preview-box");
+const previewImg = document.getElementById("preview-img");
+const previewText = document.getElementById("preview-text");
+
+let hoverTimer;
+
+const previewData = {
+  dta: {
+    img: "images/favicon.png",
+    text: "Open math ."
+  },
+  raldi: {
+    img: "images/raldi.png",
+    text: "Weird ela ."
+  },
+  drift: {
+    img: "images/drift.png",
+    text: "Simple science  "
+  }
+};
+
+const buttons = document.querySelectorAll(".mathbutton");
+
+buttons.forEach(button => {
+
+  button.addEventListener("mouseenter", (e) => {
+    // start 2-second timer
+    hoverTimer = setTimeout(() => {
+      // find preview class
+      const gameClass = [...button.classList].find(c => previewData[c]);
+      if (gameClass) {
+        previewImg.src = previewData[gameClass].img;
+        previewText.textContent = previewData[gameClass].text;
+
+        // position near mouse
+        previewBox.style.left = (e.pageX + 10) + "px";
+        previewBox.style.top = (e.pageY + 10) + "px";
+
+        // fade in
+        previewBox.classList.add("show");
+      }
+    }, 2000); // 2 seconds
+  });
+
+  button.addEventListener("mouseleave", () => {
+    // cancel hover timer if not done
+    clearTimeout(hoverTimer);
+
+    // fade out
+    previewBox.classList.remove("show");
+  });
+
+});
