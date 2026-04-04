@@ -49,56 +49,94 @@ fetch("/navbar.html")
 
 
     /* previewer of apps */
+document.addEventListener("DOMContentLoaded", () => {
+  const previewBox = document.getElementById("preview-box");
+  const previewIframe = document.getElementById("preview-iframe");
+  const previewText = document.getElementById("preview-text");
 
-const previewBox = document.getElementById("preview-box");
-const previewIframe = document.getElementById("preview-iframe");
-const previewText = document.getElementById("preview-text");
+  // Preview data object — URLs and descriptions left empty
+  const previewData = {
+    // PC buttons
+    dta: { url: "Apps/DTA.html", text: "g†@ style app" },
+    raldi: { url: "", text: "" },
+    drift: { url: "", text: "" },
+    bacon: { url: "", text: "" },
+    bbppagelessons: { url: "", text: "" },
+    dtr: { url: "", text: "" },
+    PeoplePg: { url: "", text: "" },
+    Talletail: { url: "", text: "" },
+    "b-cksh-t": { url: "", text: "" },
+    funnysh0t: { url: "", text: "" },
+    cloverp: { url: "", text: "" },
+    DRIVINGLESSONS: { url: "", text: "" },
+    "bul forcee": { url: "", text: "" },
+    hl: { url: "", text: "" },
+    suph: { url: "", text: "" },
+    ultrak1ll: { url: "", text: "" },
 
-const previewData = {
-  dta: {
-    url: "PC/dta.html",
-    text: "Lesson about: A g†@ style educaion"
-  },
-  raldi: {
-    url: "PC/.html",
-    text: "Weird math horror game."
-  },
-  drift: {
-    url: "PC/.html",
-    text: "Simple but addictive drifting game."
-  }
-};
+    // Arcade buttons
+    yokedsqrt: { url: "", text: "" },
+    FNAE: { url: "", text: "" },
+    clusteru: { url: "", text: "" },
+    driftb: { url: "", text: "" },
+    custsupport: { url: "", text: "" },
+    tosst: { url: "", text: "" },
+    fnafsisterloc: { url: "", text: "" },
+    tsimi: { url: "", text: "" },
+    ptk1: { url: "", text: "" },
+    DLng0m: { url: "", text: "" },
+    boxran: { url: "", text: "" },
+    s0cc3ran: { url: "", text: "" },
 
-let hoverTimer;
+    // Mobile buttons
+    "drive-algebra": { url: "", text: "" },
+    fnworld: { url: "", text: "" },
+    Sd33boxle: { url: "", text: "" },
+    brustar: { url: "", text: "" },
+    madbird: { url: "", text: "" },
+    BlOCKBL: { url: "", text: "" },
+    smallworldc: { url: "", text: "" },
+    bitl: { url: "", text: "" },
+    gag: { url: "", text: "" },
+    "p^z1": { url: "", text: "" },
+    "p^z2": { url: "", text: "" },
+    jetjoy: { url: "", text: "" },
+    crazyc3d: { url: "", text: "" },
+    snowrir: { url: "", text: "" },
+    bbalgebra: { url: "", text: "" },
+    fnfriday: { url: "", text: "" }
+  };
 
-const buttons = document.querySelectorAll(".mathbutton");
+  let hoverTimer;
+  const buttons = document.querySelectorAll(".mathbutton");
 
-buttons.forEach(button => {
-  button.addEventListener("mouseenter", (e) => {
-    hoverTimer = setTimeout(() => {
-      const appClass = [...button.classList].find(c => previewData[c]);
-      if (appClass) {
-        previewIframe.src = previewData[appClass].url;
-        previewText.textContent = previewData[appClass].text;
+  buttons.forEach(button => {
+    button.addEventListener("mouseenter", (e) => {
+      hoverTimer = setTimeout(() => {
+        // Find the class that matches previewData
+        const appClass = [...button.classList].find(c => previewData[c]);
+        if (appClass) {
+          previewIframe.src = previewData[appClass].url;
+          previewText.textContent = previewData[appClass].text;
 
+          previewBox.style.left = (e.pageX + 10) + "px";
+          previewBox.style.top = (e.pageY + 10) + "px";
+
+          previewBox.classList.add("show");
+        }
+      }, 2000); // 2-second hover delay
+    });
+
+    button.addEventListener("mousemove", (e) => {
+      if (previewBox.classList.contains("show")) {
         previewBox.style.left = (e.pageX + 10) + "px";
         previewBox.style.top = (e.pageY + 10) + "px";
-
-        previewBox.classList.add("show");
       }
-    }, 2000); // 2-second hover
-  });
+    });
 
-  button.addEventListener("mousemove", (e) => {
-    if (previewBox.classList.contains("show")) {
-      previewBox.style.left = (e.pageX + 10) + "px";
-      previewBox.style.top = (e.pageY + 10) + "px";
-    }
-  });
-
-  button.addEventListener("mouseleave", () => {
-    clearTimeout(hoverTimer);
-    previewBox.classList.remove("show");
+    button.addEventListener("mouseleave", () => {
+      clearTimeout(hoverTimer);
+      previewBox.classList.remove("show");
+    });
   });
 });
-
