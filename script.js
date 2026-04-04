@@ -48,8 +48,6 @@ fetch("/navbar.html")
 
 
 
-
-
     /* previewer of apps */
 
 const previewBox = document.getElementById("preview-box");
@@ -103,3 +101,4 @@ buttons.forEach(button => {
     previewBox.classList.remove("show");
   });
 });
+
