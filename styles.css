@@ -284,7 +284,6 @@ html, body {
   z-index: 1000;
 }
 
-/* The popup container */
 #popup {
   position: absolute;
   top: 50%;
@@ -293,8 +292,10 @@ html, body {
   background: white;
   padding: 10px;
   border-radius: 8px;
-  cursor: move; /* makes it draggable */
+  cursor: move;
   z-index: 1001;
+  max-width: 90vw;  /* so it never exceeds screen width */
+  max-height: 90vh; /* so it never exceeds screen height */
 }
 
 #popup img {
@@ -314,3 +315,14 @@ html, body {
   border: none;
   border-radius: 4px;
 }
+
+
+#popup iframe {
+  width: 600px;     /* default width */
+  height: 400px;    /* default height */
+  display: block;
+  border-radius: 8px;
+  max-width: 100%;  /* responsive width */
+  max-height: 80vh; /* responsive height */
+}
+
