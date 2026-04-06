@@ -74,6 +74,7 @@ fetch("/navbar.html")
     bf: { url: "PC/bul forcee.html", text: "might be broken i forgot" },
     hl: { url: "PC/hl.html", text: "very popular." },
     dso: { url: "PC/DEDs.html", text: "might be slow or fast idk." },
+    csg: { url: "PC/counterela.html", text: " chinese cs" },
 
     // Arcade buttons
     yokedsqrt: { url: "ARC/yokedsqrt.html", text: "get strong and healthy" },
@@ -88,9 +89,10 @@ fetch("/navbar.html")
     DLng0m: { url: "ARC/DLng0m.html", text: "DOWLOAD ONLY. be robot and get upgrades" },
     boxran: { url: "ARC/boxran.html", text: "b0xing r@nd0ms. with b0t or pe0p1e" },
     s0cc3ran: { url: "ARC/s0cc3ran.html", text: "s0ccer r@nd0ms. with b0t or pe0p1e" },
-
     rtsr: { url: "ARC/rooftopmath.html", text: "roof sn1p3r r@nd0ms. with b0t or pe0p1e" },
+    escr: { url: "ARC/escapeturnpike.html", text: "run away from the police" },
 
+    
     // Mobile buttons
     drialge: { url: "MOBILE/drive-algebra.html", text: "big truck and do stuff" },
     fnworld: { url: "MOBILE/fnworld.html", text: "rpg style" },
