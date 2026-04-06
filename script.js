@@ -91,6 +91,7 @@ fetch("/navbar.html")
     s0cc3ran: { url: "ARC/s0cc3ran.html", text: "s0ccer r@nd0ms. with b0t or pe0p1e" },
     rtsr: { url: "ARC/rooftopmath.html", text: "roof sn1p3r r@nd0ms. with b0t or pe0p1e" },
     escr: { url: "ARC/escapeturnpike.html", text: "run away from the police" },
+    sm2: { url: "ARC/sm99.html", text: " big apple" },
 
 
     // Mobile buttons
