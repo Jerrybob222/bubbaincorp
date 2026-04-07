@@ -77,7 +77,7 @@ fetch("/navbar.html")
  raga: { url: "PC/clr@gd0llarchers", text: "what a doll. shoot arrows at people" }, 
  end: { url: "PC/cltimetog@mbl.html", text: "las vegas pt2" }, 
  gmb: { url: "PC/end0.html", text: "paracite" }, 
-
+ddlt: { url: "PC/clddlc", text: "the litature club of doki" }, 
 
 
 
@@ -98,8 +98,6 @@ fetch("/navbar.html")
     rtsr: { url: "ARC/rooftopmath.html", text: "roof sn1p3r r@nd0ms. with b0t or pe0p1e" },
     escr: { url: "ARC/escapeturnpike.html", text: "run away from the police" },
     sm2: { url: "ARC/sm99.html", text: " big apple" },
-    fn1: { url: "ARC/fnoof1.html", text: "work as a mall cop" },
-    fn2: { url: "ARC/fnoof2.html", text: "work as a mall cop 2" },
 
 
 
@@ -126,8 +124,8 @@ fetch("/navbar.html")
     fnfriday: { url: "MOBILE/fnfriday.html", text: "tg1 friday" },
     therb: { url: "MOBILE/retrb.html", text: "learn in the nfI" },
     clashingofclans: { url: "MOBILE/cl@shingofcl@ns.html", text: "clashing r0yale" },
-    dashin: { url: "MOBILE/clgeode.html", text: "dash" },
-  
+    clgdlite: { url: "MOBILE/clgeodashlite.html", text: "ge0 d@sh1ng" },
+
   };
 
   let hoverTimer;
