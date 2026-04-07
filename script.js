@@ -77,7 +77,7 @@ fetch("/navbar.html")
  raga: { url: "PC/clr@gd0llarchers", text: "what a doll. shoot arrows at people" }, 
  end: { url: "PC/cltimetog@mbl.html", text: "las vegas pt2" }, 
  gmb: { url: "PC/end0.html", text: "paracite" }, 
-ddlc: { url: "PC/clddlc", text: "the litature club of doki" }, 
+ddlc: { url: "PC/clddlc2", text: "the litature club of doki" }, 
 kid1: { url: "PC/kidgarden1", text: "kidnergarten part 1" }, 
 kid2: { url: "PC/kidgarden2", text: "kidnergarten part 2" }, 
 kid3: { url: "PC/kidgarden3", text: "kidnergarten part 3" }, 
