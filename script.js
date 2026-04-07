@@ -100,6 +100,7 @@ kid3: { url: "PC/kidgarden3", text: "kidnergarten part 3" },
     escr: { url: "ARC/escapeturnpike.html", text: "run away from the police" },
     sm2: { url: "ARC/sm99.html", text: " big apple" },
     inf: { url: "ARC/infc.html", text: " cr@ft inf1n1tly" },
+    ali: { url: "ARC/alienh.html", text: " be mex1can when trump is president" },
 
 
 
