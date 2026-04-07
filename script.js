@@ -79,7 +79,7 @@ fetch("/navbar.html")
  gmb: { url: "PC/end0.html", text: "paracite" }, 
 ddlc: { url: "PC/clddlc", text: "the litature club of doki" }, 
 kid1: { url: "PC/kidgarden1", text: "kidnergarten part 1" }, 
-
+kid2: { url: "PC/kidgarden2", text: "kidnergarten part 2" }, 
 
 
  
