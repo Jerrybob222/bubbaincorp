@@ -102,7 +102,7 @@ kid3: { url: "PC/kidgarden3", text: "kidnergarten part 3" },
     inf: { url: "ARC/infc.html", text: " cr@ft inf1n1tly" },
     ali: { url: "ARC/alienh.html", text: " be mex1can when trump is president" },
     bbll: { url: "ARC/bbll.html", text: " launch the b1s0n" },
-
+    adol: { url: "ARC/adolf.html", text: " d@nce with fire @nd ice" },
 
 
 
