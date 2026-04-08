@@ -108,6 +108,8 @@ lol: { url: "PC/lool", text: "1v1+l0l" },
     bbll: { url: "ARC/bbll.html", text: " launch the b1s0n" },
     adol: { url: "ARC/adolf.html", text: " d@nce with fire @nd ice" },
     bb: { url: "ARC/bb.html", text: " launch the borit0" },
+   ones: { url: "ARC/onesocialstudies.html", text: " legacy " },
+   sra: { url: "ARC/schoolrunawaymath.html", text: " be a boy and runaway " },
 
 
 
