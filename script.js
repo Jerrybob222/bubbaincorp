@@ -85,7 +85,7 @@ lol: { url: "PC/lool", text: "1v1+l0l" },
  fri: { url: "PC/myfri.html", text: "my fri pedr0" }, 
  mad: { url: "PC/mad.html", text: "combat but it is m@d" }, 
 jack: { url: "PC/jack.html", text: "it is time to sm1th" }, 
-
+exe: { url: "PC/exe.html", text: "you have got to run" }, 
 
 
 
