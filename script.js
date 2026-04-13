@@ -149,6 +149,7 @@ snout: { url: "ARC/iron.html", text: "end the wolfs" },
     flyg: { url: "MOBILE/flyingoril.html", text: "be the gorilla" },
   jhot: { url: "MOBILE/jt.html", text: "jhon w1ck pt2" },
    tript: { url: "MOBILE/tript.html", text: "Be the tung and escape" },
+   status: { url: "TOOLS/status.html", text: "server status of all domains" },
 
 
 
