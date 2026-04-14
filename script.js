@@ -95,8 +95,8 @@ swords: { url: "PC/sword.html", text: "sw0rds f1ghting " },
 "hus": { url: "PC/hustle.html", text: "it is time to get going " },
 "rhit": { url: "PC/rgdlht.html", text: "beat up dolls" },
 "bige": { url: "PC/epsinedu.html", text: "epst31n basics (b@ldi)" },
-
-
+"hlm": { url: "PC/hlm.html", text: "m1ami h0tline" },
+"hkss": { url: "PC2/hkss.html", text: "like 1 gb big" },
 
 
 
