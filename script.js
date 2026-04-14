@@ -100,6 +100,7 @@ swords: { url: "PC/sword.html", text: "sw0rds f1ghting " },
 "stick1": { url: "PC/henprison.html", text: "flee it now" },
 "stick2": { url: "PC/complex.html", text: "flee it now but it is better than the last" },
 "stick3": { url: "PC/ship.html", text: "there is a ship in the air " },
+"stick4": { url: "PC/steal.html", text: "steal it now! " },
 
 
 
