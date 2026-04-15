@@ -254,7 +254,7 @@ html, body {
   will-change: transform;
 
   #preview-text {
-    margin-top: 10px;
+    margin-top: 4px;
     font-size: 8px;
     text-align: center;
     flex-grow: 1;
@@ -295,7 +295,7 @@ html, body {
   cursor: move;
   z-index: 1001;
   max-width: 90vw;  /* so it never exceeds screen width */
-  max-height: 90vh; /* so it never exceeds screen height */
+  max-height: 120vh; /* so it never exceeds screen height */
 }
 
 #popup img {
@@ -319,7 +319,7 @@ html, body {
 
 #popup iframe {
   width: 600px;     /* default width */
-  height: 500px;    /* default height */
+  height: 450px;    /* default height */
   display: block;
   border-radius: 8px;
   max-width: 100%;  /* responsive width */
