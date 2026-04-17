@@ -316,38 +316,3 @@ document.addEventListener('mouseup', () => {
 
 
 
-
-
-
-
-
-document.getElementById("openBtn").addEventListener("click", function () {
-  const newTab = window.open("about:blank", "_blank");
-
-  newTab.document.write(`
-    <html>
-      <head>
-        <title>Loading...</title>
-        <style>
-          html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            background: black;
-          }
-
-          iframe {
-            border: none;
-            width: 100%;
-            height: 100%;
-            display: block;
-          }
-        </style>
-      </head>
-      <body>
-        <iframe src="https://yoursite.com"></iframe>
-      </body>
-    </html>
-  `);
-});
