@@ -321,34 +321,33 @@ document.addEventListener('mouseup', () => {
 
 
 
+document.getElementById("openBtn").addEventListener("click", function () {
+  const newTab = window.open("about:blank", "_blank");
 
-function openSite() {
-  const win = window.open("about:blank", "_blank");
-
-  win.document.write(`
+  newTab.document.write(`
     <html>
       <head>
+        <title>Loading...</title>
         <style>
           html, body {
             margin: 0;
             padding: 0;
-            width: 100%;
             height: 100%;
             overflow: hidden;
+            background: black;
           }
 
           iframe {
-            width: 100vw;
-            height: 100vh;
             border: none;
+            width: 100%;
+            height: 100%;
             display: block;
           }
         </style>
       </head>
       <body>
-        <iframe src="https://3.bubbaincorp.workers.dev"></iframe>
+        <iframe src="https://yoursite.com"></iframe>
       </body>
     </html>
   `);
-  win.document.close();
-}
+});
