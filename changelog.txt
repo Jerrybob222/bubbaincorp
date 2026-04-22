@@ -1,3 +1,11 @@
+4/22/26
++ fixed jm
+
+
+
+
+
+
 4/21/26
 + bug fixes for apps
 + new outside app made for site
@@ -5,11 +13,10 @@
 + re added r0bl0x
 
 
+
+
 4/20/26
 + new web browser
-
-
-
 
 
 
