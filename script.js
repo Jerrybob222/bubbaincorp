@@ -138,7 +138,7 @@ fnoof2: { url: "ARC/fnoof2.html", text: "mall cop 2" },
 snout: { url: "ARC/iron.html", text: "end the wolfs" },
 sbc: { url: "ARC/spacebar.html", text: "you must press the bar" },
 ball: { url: "ARC/basket.html", text: "it is time to ball my people" },
-burg: { url: "ARC/burger.html", text: "you must eat the burger now" },
+brug: { url: "ARC/burger.html", text: "you must eat the burger now" },
 
 
 
