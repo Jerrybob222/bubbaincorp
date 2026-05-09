@@ -177,7 +177,7 @@ swords: { url: "PC/sword.html", text: "sw0rds f1ghting " },
 "goose": { url: "PC/untitledmathproblems.html", text: "untitled goose g@m3." },
 "slimera": { url: "DLapps/slomer.html", text: "form a slime empire" },
 "postoffice": { url: "PC/postaloffice.html", text: "post" },
-
+"phish": { url: "PC/web.html", text: "post" },
 
 
 
